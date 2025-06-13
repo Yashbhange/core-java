@@ -1,0 +1,19 @@
+ interface Animal{
+    void eat();
+  
+}
+class dog implements Animal{
+    public void eat(){
+        System.out.println("eat");
+
+    }
+    dog(){
+        System.out.println("constructor");
+    }
+}
+public class abstraction{
+    public static void main(String[] args) {
+        dog d=new dog();
+        d.eat();
+    }
+}
