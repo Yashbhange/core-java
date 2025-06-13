@@ -1,0 +1,16 @@
+ class yash {
+    void print(){
+        System.out.println("yash is fast");
+    }
+    void Display(){
+        System.out.println("I am yash");
+    }
+    
+}
+public class object{
+    public static void main(String[] args) {
+        Omkar o=new yash();
+        o.Display();
+        o.print();
+    }
+}
